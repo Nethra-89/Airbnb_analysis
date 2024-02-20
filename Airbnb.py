@@ -5,11 +5,7 @@ import plotly.express as px
 from streamlit_option_menu import option_menu
 
 st.set_page_config(page_title= "Airbnb Data Visualization | By Nethra",
-                   layout= "wide",
-                   initial_sidebar_state= "expanded",
-                   menu_items={'About': """# This dashboard app is created by *Nethra*!
-                                        Data has been gathered from mongodb atlas"""}
-                  )
+                   layout= "wide")
 with st.sidebar:
     selected = option_menu("Menu", ["Home","Overview","Explore"], 
                            icons=["house","graph-up-arrow","bar-chart-line"],
