@@ -1,4 +1,4 @@
-# Airbnb_analysis
+Airbnb_analysis
 Introduction
 
 This project is an interactive Airbnb Data Visualization Dashboard built using Streamlit, Plotly, Pandas, and MongoDB. It allows users to explore and analyze Airbnb listings based on different filters such as country, property type, room type, and price. The dashboard provides insights into pricing trends, property distribution, host details, and availability.
